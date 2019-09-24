@@ -32,7 +32,19 @@
 
           
             
-          
+          var outputResponse = function(name, choice){
+                  if(choice=="dogs"){
+                    return ("Hi "+name+", I'm glad you like dogs. They are all good bois.")
+                  }
+                  if(choice=="cats"){
+                    return ("Hello "+name+", that's cool you like cats, but you should be careful around them.")
+                  }
+                  else{
+                    console.log("they didn't type anything")
+                    return ("Come on "+name+" make a decision! Do you really not like cats OR dogs? Do you have a heart?")
+}
+
+          }
 
 
 
